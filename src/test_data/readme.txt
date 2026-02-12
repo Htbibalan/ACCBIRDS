@@ -1,0 +1,1 @@
+Here I am comparing the acc data starting at 11:40:58 with video data recorded at 11:44:00 and annotated for some min.
