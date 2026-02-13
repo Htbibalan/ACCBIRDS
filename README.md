@@ -43,8 +43,8 @@ Here, we are focused on accelerometer (ACC) data mounted on the back of birds, b
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Htbibalan/ACCBIRDS.git
-cd ACCBIRDS
+git clone https://github.com/Htbibalan/BAT.git
+cd BAT
 ```
 
 #### 2. Install the anaconda env
@@ -84,7 +84,7 @@ Use the **Inputs** tab to remap buttons/keys for each player.
   title        = {BAT: Behavioural Annotator Tool with Multi-observer and Gamepad Support},
   year         = {2026},
   institution  = {BiRBSLAB, AAB, UiT The Arctic University of Norway},
-  url          = {https://github.com/Htbibalan/ACCBIRDS.git}
+  url          = {https://github.com/Htbibalan/BAT.git}
 }
 ```
 
