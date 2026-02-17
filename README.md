@@ -1,6 +1,6 @@
 
 **🏗️ 🚧⚠️🚧 This repository is under construction 🚧⚠️🚧🏗️**
-# 🌃🎮🦇BAT : Behavioural Annotator Tool 🦇🎮🌃
+# BAT : Behavioural Annotator Tool 🦇
  
 ![Banner Image](https://github.com/Htbibalan/BAT/blob/main/src/banner.png)
 
@@ -92,3 +92,12 @@ Use the **Inputs** tab to remap buttons/keys for each player.
 #### Acknowledgments 📢
 
 Supported by **BiRBSLAB**, UiT The Arctic University of Norway.
+
+
+
+
+### To do
+* fix keyboard shorcuts ( backspace, undo)
+* add HUD hide option
+* add experiment/ user/ folder structure 
+* overkill: include animal labeling for multi-animal annotations ( e.g. simple computer vision to mark/tag the animals, ideally this should be done in advance by the user)
