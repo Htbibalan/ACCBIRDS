@@ -79,7 +79,7 @@ Use the **Inputs** tab to remap buttons/keys for each player.
 ## Citation
 If you use BAT, please cite:
 Taghipourbibalan, H. (2026). BAT: Behavioural Annotator Tool (Version 0.2.2) [Software]. Zenodo.  
-https://doi.org/10.5281/zenodo.19312444
+https://doi.org/10.5281/zenodo.19315965
 
 
 ### To do 🛠️
