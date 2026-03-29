@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "BAT: Behavioural Annotator Tool"
+message: "If you use BAT, please cite it as below."
+type: software
+
+authors:
+  - family-names: "Taghipourbibalan"
+    given-names: "Hamid"
+
+year: 2026
+version: "0.2.2"
+
+repository-code: "https://github.com/Htbibalan/BAT"
+
+abstract: >
+  BAT is a Python-based graphical tool for annotating animal behaviour
+  from video recordings.
+
+license: "Apache-2.0"

@@ -14,14 +14,6 @@ Here, we are focused on accelerometer (ACC) data collected from devices mounted 
 
 **Need to work on tracking of multi-animals and annotation of each in parallel**
 
-## The status of the repository at the moment 📃
-
-| File / Notebook                                      | Purpose                                                                 | Status               |
-|------------------------------------------------------|-------------------------------------------------------------------------|----------------------|
-| `bat_v02.ipynb`                       | Single-user video annotator (bout + event modes)                        | Stable               |
-| `bat_v04_gamepad_multiplayer.ipynb`   | Multi-player / multi-animal + gamepad & keyboard mapping                | **Active development** |
-| `acc_vs_behaviour_data_processing_v01.ipynb`         | Merge annotations (.csv) with accelerometer data → labeled dataset      | Functional           |
-| Timestamp / timezone fixer snippet                  | Normalise format & apply time shift to ACC timestamps                   | Helper script        |
 
 ### Highlights ✅
 - Frame-accurate video playback & navigation
@@ -58,7 +50,7 @@ cd BAT
                 
                     conda activate BAT
 In Jupyter Notebook or your preferred IDE, run one of the notebooks in the /notebooks folder.
-bat_v02.ipynb is the simplest one and should work for now, there you can load videos, define ethograms, and start annotating, it is recommended to enter the time/data of the video in the field to have proper time stamp of the behaviours for further synchronization with external devices/data sets.
+bat_v02.2.ipynb is the simplest one and should work for now, there you can load videos, define ethograms, and start annotating, it is recommended to enter the time/data of the video in the field to have proper time stamp of the behaviours for further synchronization with external devices/data sets.
 
 
 ## Gamepad & Multi-observer mode 🎮🐦‍⬛🐦🎮
@@ -77,27 +69,18 @@ Goal: allow multiple people  to annotate efficiently. Multiple players can score
 
 Use the **Inputs** tab to remap buttons/keys for each player.
 
-#### Citation of repository 🪪
 
-```bibtex
-@misc{taghipourbibalan2026BAT,
-  author       = {Hamid Taghipourbibalan},
-  title        = {BAT: Behavioural Annotator Tool with Multi-observer and Gamepad Support},
-  year         = {2026},
-  institution  = {BiRBSLAB, AAB, UiT The Arctic University of Norway},
-  url          = {https://github.com/Htbibalan/BAT.git}
-}
-```
 
 #### Acknowledgments 📢
 
-Supported by **BiRBSLAB**, UiT The Arctic University of Norway.
+* Supported by ([BiRBSLAB](https://btomotani.wordpress.com/)), UiT The Arctic University of Norway.
+* User-experience feedback by Fernando Fernández 
 
 
 
 
-### To do
-* fix keyboard shorcuts ( backspace, undo)
+### To do 🛠️
+* fix keyboard shortcuts ( backspace, undo)
 * add HUD hide option
 * add experiment/ user/ folder structure 
 * overkill: include animal labeling for multi-animal annotations ( e.g. simple computer vision to mark/tag the animals, ideally this should be done in advance by the user)
