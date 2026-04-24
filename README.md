@@ -7,7 +7,7 @@
 **BAT** is a Python-based graphical tool designed to help researchers annotate animal behaviour from video recordings and synchronize these annotations with external devices with timestamped data.
 Here, we are focused on accelerometer (ACC) data collected from devices mounted on the back of birds, but BAT can be generalized for other experimental settings.
 
-### Current development focus (February 2026):  📝
+### Current development focus (April 2026):  📝
 **For now, I am trying to establish a reliable behavioural annotation GUI, to timestamp behaviours of birds and save .csv files with labeled ethograms. ( duration, number and timestamp of events)**
 
 **I am thinking of multi-observer / multi-animal support + gamepad integration to make long annotation sessions faster and less tiring by gamifying the process. This would also help with generating reliable ground truth by parallel scoring of behaviours or reducing the workload of each user, such that each user ( I call them players) focus on particular behaviours and score the same video**
@@ -27,7 +27,7 @@ Here, we are focused on accelerometer (ACC) data collected from devices mounted 
 - Parallel or exclusive bout policy
 - Visual HUD showing active bouts during playback
 - Sound feedback & overlay messages
-- Chunked reading for very large accelerometer files
+
 
 
 
@@ -86,4 +86,5 @@ https://doi.org/10.5281/zenodo.19315965
 * fix keyboard shortcuts ( backspace, undo)
 * add HUD hide option
 * add experiment/ user/ folder structure 
-* overkill: include animal labeling for multi-animal annotations ( e.g. simple computer vision to mark/tag the animals, ideally this should be done in advance by the user)
+~~overkill: include animal labeling for multi-animal annotations ( e.g. simple computer vision to mark/tag the animals, ideally this should be done in advance by the user)~~
+* add multiple window expansion for multi-user in parallel scoring
