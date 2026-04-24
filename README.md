@@ -2,7 +2,7 @@
 **🏗️ 🚧⚠️🚧 This repository is under construction 🚧⚠️🚧🏗️**
 # BAT : Behavioural Annotator Tool 🦇
  
-![Banner Image](https://github.com/Htbibalan/BAT/blob/main/src/banner.png)
+![Banner Image](https://github.com/Htbibalan/BAT/blob/main/src/banner_2.png)
 
 **BAT** is a Python-based graphical tool designed to help researchers annotate animal behaviour from video recordings and synchronize these annotations with external devices with timestamped data.
 Here, we are focused on accelerometer (ACC) data collected from devices mounted on the back of birds, but BAT can be generalized for other experimental settings.
