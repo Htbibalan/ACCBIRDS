@@ -74,7 +74,7 @@ Use the **Inputs** tab to remap buttons/keys for each player.
 #### Acknowledgments 📢
 
 * Supported by ([BiRBSLAB](https://btomotani.wordpress.com/)), UiT The Arctic University of Norway.
-* User-experience feedback by Fernando Fernández 
+* User-experience feedback by Fernando Ramón García Fernández , Radboud University Nijmegen
 
 ## Citation
 If you use BAT, please cite:
