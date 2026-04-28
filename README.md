@@ -83,7 +83,7 @@ Use the **Inputs** tab to remap buttons/keys for each player.
 
 ## Citation
 Taghipourbibalan, H., García Fernández, F. R., & Tomotani, B. M. (2026). 
-BAT: Behavioural Annotation Tool (Version 1.0.0) [Software]. Zenodo. 
+BAT: Behavioural Annotator Tool (Version 1.0.0) [Software]. Zenodo. 
 https://doi.org/10.5281/zenodo.19855759
 
 
