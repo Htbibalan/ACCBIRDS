@@ -1,21 +1,46 @@
 cff-version: 1.2.0
+
 title: "BAT: Behavioural Annotator Tool"
+
 message: "If you use BAT, please cite it as below."
+
 type: software
 
 authors:
   - family-names: "Taghipourbibalan"
     given-names: "Hamid"
+    affiliation: "UiT The Arctic University of Norway"
+    orcid: "https://orcid.org/0000-0003-4395-4413"
+
+  - family-names: "García Fernández"
+    given-names: "Fernando Ramón"
+    affiliation: "Radboud University Nijmegen"
+
+  - family-names: "Tomotani"
+    given-names: "Barbara Mizumo"
+    affiliation: "UiT The Arctic University of Norway"
+    orcid: "https://orcid.org/0000-0002-8855-4803"
 
 year: 2026
-version: "0.2.2"
+version: "1.0.0"
+date-released: 2026-04-28
 
-doi: "10.5281/zenodo.19315965"
+#doi: "10.5281/zenodo.19315965"
 
 repository-code: "https://github.com/Htbibalan/BAT"
+url: "https://github.com/Htbibalan/BAT"
 
 abstract: >
   BAT is a Python-based graphical tool for annotating animal behaviour
-  from video recordings.
+  from video recordings. It supports behavioural scoring from video,
+  multi-user annotation, multi-animal annotation, and optional integration
+  with tracking data such as DeepLabCut outputs.
 
 license: "Apache-2.0"
+
+keywords:
+  - animal behaviour
+  - behavioural annotation
+  - video annotation
+  - ethogram
+  - neuroscience

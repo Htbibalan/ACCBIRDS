@@ -1,8 +1,6 @@
 # a command to inspect the video fiels
 
-#ffprobe -v error -select_streams v:0 -count_frames ^
-#-show_entries stream=nb_read_frames,nb_frames,r_frame_rate,avg_frame_rate,duration ^
-#-of default=noprint_wrappers=1 "bug_20260122_133343.mkv" 
+#ffprobe -v error -select_streams v:0 -count_frames ^ -show_entries stream=nb_read_frames,nb_frames,r_frame_rate,avg_frame_rate,duration ^ -of default=noprint_wrappers=1 "bug_20260122_133343.mkv" 
 # ffprobe -v error -select_streams v:0 -count_frames -show_entries stream=nb_read_frames,r_frame_rate,avg_frame_rate,duration -of default=noprint_wrappers=1 "bug_video.mkv"
 
 
