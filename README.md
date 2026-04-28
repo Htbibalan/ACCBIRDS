@@ -31,8 +31,9 @@ Here, we are focused on accelerometer (ACC) data collected from devices mounted 
 
 
 
-## Quick Start 🎚️
+## How to run it? 🎚️
 
+#### Advanced development mode
 #### 1. Clone the repository
 
 ```bash
@@ -49,8 +50,12 @@ cd BAT
 **Switch to the env named BAT using:**
                 
                     conda activate BAT
-In Jupyter Notebook or your preferred IDE, run one of the notebooks in the /notebooks folder.
-bat_v02.2.ipynb is the simplest one and should work for now, there you can load videos, define ethograms, and start annotating, it is recommended to enter the time/data of the video in the field to have proper time stamp of the behaviours for further synchronization with external devices/data sets.
+                    python BAT.py
+
+#### Easy installation
+Download the latest release (Windows installer):
+https://github.com/Htbibalan/BAT/releases/latest
+and install the software.
 
 
 ## Gamepad & Multi-observer mode 🎮🐦‍⬛🐦🎮
@@ -77,14 +82,17 @@ Use the **Inputs** tab to remap buttons/keys for each player.
 * User-experience feedback by Fernando Ramón García Fernández , Radboud University Nijmegen
 
 ## Citation
-If you use BAT, please cite:
-Taghipourbibalan, H. (2026). BAT: Behavioural Annotator Tool (Version 0.2.2) [Software]. Zenodo.  
-https://doi.org/10.5281/zenodo.19315965
+Taghipourbibalan, H., García Fernández, F. R., & Tomotani, B. M. (2026). 
+BAT: Behavioural Annotation Tool (Version 1.0.0) [Software]. Zenodo. 
+https://doi.org/10.5281/zenodo.19855759
+
+
 
 
 ### To do 🛠️
 * fix keyboard shortcuts ( backspace, undo)
 * add HUD hide option
 * add experiment/ user/ folder structure 
+* add project load/save feature
 ~~overkill: include animal labeling for multi-animal annotations ( e.g. simple computer vision to mark/tag the animals, ideally this should be done in advance by the user)~~
 * add multiple window expansion for multi-user in parallel scoring
